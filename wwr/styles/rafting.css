@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #677db7;
+    --secondary-color: #033e21;
+    --accent1-color: #E56B4F;
+    --accent2-color: #76A9A7;
+    --accent3-color: #B3B3B3;
+}
+
+h1, h2 {
+    color: var(--secondary-color)
+}
+
+a img {
+    text-decoration: none;
+}
+
+main {
+    max-width: 840px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    background-color: rgba(179, 179, 179, 0.6); /* Same background */
+    padding: 10px 100px; 
+    position: absolute;
+    bottom: 450px;
+    left: 100px;
+    display: block;
+}
+
+.hero article img {
+    position: absolute; /* Keeps the image inside the container */
+    bottom: 50px; /* Adjusts vertical position */
+    right: 20px; /* Floats it to the right */
+    height: 100px;
+    width: 100px;
+    background-color: rgba(179, 179, 179, 0.6); /* Matching background color */
+    padding: 5px; /* Adds padding for better visibility */
+}
+
+.hero article  p {
+    position: absolute; /* Keeps the paragraph inside the container */
+    bottom: 10px; /* Adjusts vertical position */
+    left: 20px; /* Aligns paragraph to the left */
+    width: calc(100% - 150px); /* Leaves space for the image on the right */
+    background-color: rgba(179, 179, 179, 0.6); /* Matching background color */
+    padding: 10px;
+    color: black; /* Ensures readability on the background */
+}
+

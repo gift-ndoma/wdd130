@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #677db7;
     --secondary-color: #033e21;
@@ -5,6 +11,7 @@
     --accent2-color: #76A9A7;
     --accent3-color: #B3B3B3;
 }
+
 
 h1, h2 {
     color: var(--secondary-color)
@@ -29,7 +36,7 @@ main {
 }
 
 .hero h1 {
-    background-color: rgba(179, 179, 179, 0.6); /* Same background */
+    background-color: rgba(95, 87, 87, 0.441); /* Same background */
     padding: 10px 100px; 
     position: absolute;
     bottom: 450px;
@@ -39,12 +46,13 @@ main {
 
 .hero article img {
     position: absolute; 
-    bottom: 50px;
-    right: 20px; 
-    height: 100px;
+    bottom: 10px;
+    right: 30px; 
+    height: 110px;
     width: 100px;
     background-color: rgba(179, 179, 179, 0.6); 
-    padding: 5px; 
+    padding: 5px;
+    float: right; 
 }
 
 .hero article  p {
@@ -54,6 +62,10 @@ main {
     width: calc(100% - 150px); 
     background-color: rgba(179, 179, 179, 0.6); 
     padding: 10px;
-    color: black; 
+    color: black;
 }
+ .hero article {
+    text-align: center;
+ }
+
 

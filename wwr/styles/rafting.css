@@ -39,7 +39,7 @@ main {
 
 .hero h1 {
     position: absolute;
-    background-color: #b3b3b399; 
+    background-color: #b3b3b3ce; 
     padding: 10px 100px; 
     bottom: 80%;
     left: 5%;
@@ -57,7 +57,7 @@ main {
     bottom: 10px; 
     left: 20px; 
     width: 90%; 
-    background-color: #b3b3b399; 
+    background-color: #b3b3b3ce; 
     padding: 10px;
     color: black;
 }

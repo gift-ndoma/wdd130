@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #677db7;
+    --primary-color: #1E3A8A;
     --secondary-color: #033e21;
     --accent1-color: #E56B4F;
     --accent2-color: #76A9A7;
@@ -67,7 +67,7 @@ header {
     grid-template-columns: 1fr 3fr;
     align-items: center;
     padding: 10px;
-    background: var(--primary-color)
+    background: var(--primary-color);
 }
 
 nav {
@@ -81,13 +81,15 @@ header img {
     height: auto;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: var(--accent3-color);
-}
+    background-color: var(--secondary-color);
+} */
 
 nav a {
+    font-size: larger;
     text-decoration: none;
-    color:beige;
+    color:#F8F9FA;
 }
 
 .history {

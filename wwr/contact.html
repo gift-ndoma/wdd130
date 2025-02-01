@@ -33,53 +33,60 @@
                    Quos hic error provident numquam delectus itaque minima doloribus magni perspiciatis.
             </article>
         </div>
-        <div class="contact">
-            <h2>Contact Us</h2>
-            <p><strong>Address: </strong>177 Huntington Ave Ste 1703</p>
-            <p><strong>Email: </strong>giftndoma87@gmail.com</p>
-            <p><strong>Phone: </strong>+234 814 851 1743</p>
+        <div class="contact_container">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p><strong>Address: </strong>177 Huntington Ave Ste 1703</p>
+                <p><strong>Email: </strong>giftndoma87@gmail.com</p>
+                <p><strong>Phone: </strong>+234 814 851 1743</p>
+            </div>
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126614.13184914071!2d3.9368448999999996!3d7.388412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738364503251!5m2!1sen!2sng" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="employees_profiles">
+                <h2>Meet Our Team!</h2>
+                <div class="employees">
+                    <section class="employee">
+                        <img src="images/employee.jpg" alt="an employee of the rips rafting site">
+                        <p>John Smith - Resevation Specialist</p>
+                    </section>
+                    <section class="employee">
+                        <img src="images/employee.jpg" alt="an employee of the rips rafting site" width="250px" height="250px">
+                        <p>John Smart - Customer Service Manager</p>
+                    </section>
+                    <section class="employee">
+                        <img src="images/employee.jpg" alt="an employee of the rips rafting site">
+                        <p>Jane Doe - Website Coordinator</p>
+                    </section>
+                </div>
+            </div>
         </div>
-        <div class="iframe">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126614.13184914071!2d3.9368448999999996!3d7.388412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738364503251!5m2!1sen!2sng" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="employees">
-            <section>
-                <img src="images/employee.jpg" alt="an employee of the rips rafting site">
-                <p>John Smith - Resevation Specialist</p>
-            </section>
-            <section>
-                <img src="images/employee.jpg" alt="an employee of the rips rafting site">
-                <p>John Smart - Customer Service Manager</p>
-            </section>
-            <section>
-                <img src="images/employee.jpg" alt="an employee of the rips rafting site">
-                <p>Jane Doe - Website Coordinator</p>
-            </section>
-        </div>
-        <div>
+        <div class="form">
             <h2>We Want to Hear From You!</h2>
             <form>
-                <fieldset>
+                <fieldset class="field">
                     <legend>Contact Information</legend>
                         <label for="username">Name</label>
-                        <input type="text" id="username" name="username">
+                        <input type="text" id="username" name="username"><br>
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email">
                 </fieldset>
-                <fieldset>
-                    <legend>Purpose of Message</legend>
-                        <label for="r1">General Inquiry</label>
-                        <input type="radio" id="r1" name="r1">
-                        <label for="r2">Reservation Question</label>
-                        <input type="radio" id="r2" name="r2">
-                        <label for="r3">Website Suggestion</label>
-                        <input type="radio" id="r3" name="r3">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Enter your message...." rows="4"></textarea>
+                <fieldset class="field">
+                    <legend>Purpose of Message</legend><br>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="purpose" value="general"><br>
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="purpose" value="reservation"><br>
+                    <label for="website">Website Suggestion</label>
+                    <input type="radio" id="website" name="purpose" value="website"><br><br>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message...." rows="4"></textarea>
                 </fieldset>
-                <label for="suscribe">Please suscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="suscribe" name="suscribe">
-                <button type="submit">Send Message</button>
+                <div class="field checkbox">
+                    <input type="checkbox" id="suscribe" name="suscribe">
+                    <label for="suscribe">Please suscribe me to the monthly newsletter</label>
+                    <button type="submit">Send Message</button>
+                </div>
             </form>
         </div>
       </main>  

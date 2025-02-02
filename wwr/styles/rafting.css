@@ -46,6 +46,7 @@ a img {
     background-color: #b3b3b3ce;
     position: absolute;
     top: 10px;
+    z-index: 1;
 }
 
 .hero article img {
@@ -54,15 +55,14 @@ a img {
     float: right; 
 }
 
+
 .hero article {
     position: absolute; 
     bottom: 5rem; 
-    left: 10%; 
-    width: 80%; 
     background-color: #b3b3b3ce; 
-    padding: 30px;
+    padding: 10px;
     color: #000;
-    margin: 0.5em 0;
+    margin: 0 1rem; 
 }
 
 .hero article p {

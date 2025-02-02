@@ -147,7 +147,7 @@ footer {
     padding: 20px;
     text-align: center;
     background-color: var(--primary-color);
-    color: rgba(245, 245, 220, 0.845);
+    color: #f5f5dcd7;
     box-sizing: border-box;
 }
 
@@ -283,9 +283,14 @@ button:hover {
     cursor: pointer;
 }
 
+footer p a {
+    text-decoration: none;
+    color: #f5f5dcd7;
+}
 
-
-
+footer p a:hover {
+    color: var(--accent1-color)
+}
 
 
 

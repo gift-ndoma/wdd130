@@ -191,7 +191,9 @@ iframe {
 
 .employees_profiles { 
     padding: 1rem;
-    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid #8080804c;
+    margin: 0.5em;
 }
 
 .employees {
